@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Easy-to-use",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The program is easy to use, even if you are a complete beginner",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proper steps make sure your information and data are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Fast",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "The program is written in Rust using the Dioxus framework. So it's fast and efficient!",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Built in AI tools",
+    value: "3",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Types Of Financial Reports",
+    value: "3",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Donations",
+    value: "$5",
   },
 ];
 

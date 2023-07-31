@@ -1,4 +1,5 @@
-import React from 'react'
+import styles from "../style";
+import { arrowUp } from "../assets";
 
 /*
 Copyright 2023 Andrew Kushyk
@@ -16,10 +17,23 @@ Copyright 2023 Andrew Kushyk
    limitations under the License.
 */
 
-const GetStarted = () => {
-  return (
-    <div>GetStarted</div>
-  )
-}
+const GetStarted = () => (
+  <a href="https://github.com/git-user-cpp/fideus">
+    <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
+      <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
+        <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+          <span className="text-gradient">Download</span>
+        </p>
 
-export default GetStarted
+        <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+          <span className="text-gradient">Or</span>
+        </p>
+        <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
+          <span className="text-gradient">Contribute</span>
+        </p>
+      </div>
+    </div>
+  </a>
+);
+
+export default GetStarted;

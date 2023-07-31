@@ -16,10 +16,12 @@ Copyright 2023 Andrew Kushyk
    limitations under the License.
 */
 
-const Button = () => {
-  return (
-    <div>Button</div>
-  )
-}
+const Button = ({ styles }) => (
+  <a href='https://github.com/git-user-cpp/fideus'>
+    <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+      Download
+    </button>
+  </a>
+);
 
-export default Button
+export default Button;
