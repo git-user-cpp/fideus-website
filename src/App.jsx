@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.js'
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, CTA, Footer} from './components/index.js'
+import { Navbar, Summary, Stats, Features, Pros, JoinTeam, Testimonials, CTA, Footer} from './components/index.js'
 
 /*
 Copyright 2023 Andrew Kushyk
@@ -28,16 +28,16 @@ const App = () => (
 
     <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Summary />
       </div>
     </div>
     
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
+        <Features />
+        <Pros />
+        <JoinTeam />
         <Testimonials />
         <CTA />
         <Footer />

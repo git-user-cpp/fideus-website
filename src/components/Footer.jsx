@@ -24,7 +24,7 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10 cursor-default">
         <img
           src={logo}
-          alt="hoobank"
+          alt="logotype"
           className="w-[5rem] object-contain rounded-full"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>

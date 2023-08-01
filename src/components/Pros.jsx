@@ -18,7 +18,7 @@ Copyright 2023 Andrew Kushyk
    limitations under the License.
 */
 
-const Billing = () => (
+const Pros = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img src={businessman} alt="business" className="w-[35rem]" />
@@ -44,4 +44,4 @@ const Billing = () => (
   </section>
 );
 
-export default Billing;
+export default Pros;

@@ -17,7 +17,7 @@ Copyright 2023 Andrew Kushyk
    limitations under the License.
 */
 
-const CardDeal = () => (
+const JoinTeam = () => (
   <section className={`${layout.section} cursor-default`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -33,9 +33,9 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={graphics} alt="team" className="w-[35rem] rounded-[2rem]" />
+      <img src={graphics} alt="team graphics" className="w-[35rem] rounded-[2rem]" />
     </div>
   </section>
 );
 
-export default CardDeal;
+export default JoinTeam;

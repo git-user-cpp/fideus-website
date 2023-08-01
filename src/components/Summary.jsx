@@ -19,7 +19,7 @@ Copyright 2023 Andrew Kushyk
    limitations under the License.
 */
 
-const Hero = () => {
+const Summary = () => {
   return (
     <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} cursor-default`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
@@ -58,4 +58,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Summary;

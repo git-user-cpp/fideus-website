@@ -1,12 +1,12 @@
-import Billing from './Billing'
-import Business from './Business'
+import Pros from './Pros'
+import Features from './Features'
 import Button from './Button'
-import CardDeal from './CardDeal'
+import JoinTeam from './JoinTeam'
 import CTA from './CTA'
 import FeedbackCard from './FeedbackCard'
 import Footer from './Footer'
 import GetStarted from './GetStarted'
-import Hero from './Hero'
+import Summary from './Summary'
 import Navbar from './Navbar'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
@@ -28,15 +28,15 @@ Copyright 2023 Andrew Kushyk
 */
 
 export {
-    Billing,
-    Business,
+    Pros,
+    Features,
     Button,
-    CardDeal,
+    JoinTeam,
     CTA,
     FeedbackCard,
     Footer,
     GetStarted,
-    Hero,
+    Summary,
     Navbar,
     Stats,
     Testimonials,

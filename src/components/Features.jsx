@@ -35,7 +35,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
+const Features = () =>  (
   <section id="features" className={`cursor-default ${layout.section}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -57,4 +57,4 @@ const Business = () =>  (
   </section>
 );
 
-export default Business;
+export default Features;
