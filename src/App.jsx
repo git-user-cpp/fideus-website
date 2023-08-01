@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './style.js'
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer} from './components/index.js'
+import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, CTA, Footer} from './components/index.js'
 
 /*
 Copyright 2023 Andrew Kushyk
@@ -39,7 +39,6 @@ const App = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
         <CTA />
         <Footer />
       </div>

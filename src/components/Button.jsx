@@ -17,7 +17,7 @@ Copyright 2023 Andrew Kushyk
 */
 
 const Button = ({ styles }) => (
-  <a href='https://github.com/git-user-cpp/fideus'>
+  <a href='https://github.com/git-user-cpp/fideus' target="_blank">
     <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
       Download
     </button>

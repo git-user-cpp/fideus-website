@@ -24,8 +24,8 @@ Copyright 2023 Andrew Kushyk
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #690041 -78.47%,
+    #500038 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -37,12 +37,12 @@ Copyright 2023 Andrew Kushyk
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #fadeef 0.89%,
+    #f5bef5 17.23%,
+    #ffa1f3 42.04%,
+    #ff77f8 55.12%,
+    #ff44d0 71.54%,
+    #ff00d4 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -53,12 +53,12 @@ Copyright 2023 Andrew Kushyk
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #ffffff -43.27%,
+    #ffccf4 -21.24%,
+    #ffb8e1 12.19%,
+    #ff95f6 29.82%,
+    #ff64be 51.94%,
+    #ff00d4 90.29%
   );
 }
 
@@ -89,7 +89,7 @@ Copyright 2023 Andrew Kushyk
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #ff00aa 0%, #11101d 100%);
 }
 
 .box-shadow {
@@ -141,16 +141,11 @@ Copyright 2023 Andrew Kushyk
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: linear-gradient(180deg, rgba(64, 0, 255, 0) 0%, #0084ff 100%);
   filter: blur(123px);
 }
 
 .pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  background: linear-gradient(90deg, #ff8afd 0%, #ff00aa 100%);
   filter: blur(900px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
 }

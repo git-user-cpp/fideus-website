@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, } from "../assets";
 
 export const navLinks = [
   {
@@ -15,28 +15,25 @@ export const navLinks = [
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Users",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
     title: "Easy-to-use",
     content:
       "The program is easy to use, even if you are a complete beginner",
   },
   {
     id: "feature-2",
-    icon: shield,
     title: "100% Secured",
     content:
       "We take proper steps make sure your information and data are secure.",
   },
   {
     id: "feature-3",
-    icon: send,
     title: "Fast",
     content:
       "The program is written in Rust using the Dioxus framework. So it's fast and efficient!",
@@ -47,25 +44,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Perfect project with a strong potential! I wish you good luck!",
+    name: "Anna Watson",
+    title: "Open Source Developer",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "The idea is great! As a project manager, I would recommend using this program to manage the project budget.",
+    name: "Steve Prokopenko",
+    title: "Project Manager",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "In fact, there is no financial program as good as this one, which is easy to use, fast and open source.",
+    name: "Serghii Divodenko",
+    title: "Accountant",
     img: people03,
   },
 ];
@@ -84,7 +81,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Donations",
-    value: "$5",
+    value: "$5+",
   },
 ];
 
@@ -94,23 +91,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "",
       },
     ],
   },
@@ -119,23 +116,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "",
       },
     ],
   },
@@ -144,11 +141,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        link: "",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "",
       },
     ],
   },
@@ -174,24 +171,5 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];

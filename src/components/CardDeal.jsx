@@ -1,6 +1,6 @@
-import { card } from "../assets";
+import { graphics } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import GetStarted from "./GetStarted";
 /*
 Copyright 2023 Andrew Kushyk
 
@@ -18,22 +18,22 @@ Copyright 2023 Andrew Kushyk
 */
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <section className={`${layout.section} cursor-default`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
+        Join the development <br className="sm:block hidden" /> team in a few easy
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Become part of a highly motivated team of a free and open source project. Modern technology stack, interesting development process and useful experience are waiting for you!
       </p>
-
-      <Button styles={`mt-10`} />
+      <div className="mt-10">
+        <GetStarted  />
+      </div>
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={graphics} alt="team" className="w-[35rem] rounded-[2rem]" />
     </div>
   </section>
 );
